@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express'
 import axios, { AxiosResponse } from 'axios'
 import { ethers } from 'ethers'
-import { ImageData, getNounData } from '@alpsdao/assets'
+import { ImageData, getNounData } from '@nouns/assets'
 import { buildSVG } from '@nouns/sdk'
 import { shortAddress, shortENS } from '../utils/addressAndENSDisplayUtils'
 import { Nouns, Proposal } from '../utils/types'
